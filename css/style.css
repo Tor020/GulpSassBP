@@ -1,4 +1,40 @@
-h1 {
-  color: #f00;
-  background-color: #00f;
-  padding: 0.5em; }
+/* Importing Framework */
+/* Importing All Base Utilities */
+.testdiv {
+  max-width: 50em;
+  margin: 0 auto;
+  background-color: #fff; }
+  .testdiv div, .testdiv p {
+    padding: 1em; }
+
+.layer {
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: #fff; }
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+a {
+  margin: 0; }
+
+/* Importing Layout FIles */
+body {
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #eee; }
+
+.testdiv {
+  border-radius: 3px; }
+
+.layer {
+  box-shadow: 1px 2px 4px 1px rgba(0, 0, 0, 0.71); }

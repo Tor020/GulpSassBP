@@ -1,0 +1,24 @@
+// Use @extend for placeholders
+
+%container {
+  max-width : 50em;
+  margin : 0 auto;
+
+  background-color : $container-bg;
+  div,
+  p {
+    padding : 1em;
+  }
+}
+%outsideMargin {
+  width : 80%;
+  max-width : 80%;
+  margin : 0 auto;
+
+  
+  background-color : $container-bg;
+}
+
+%zeroMargin {
+  margin : 0;
+}

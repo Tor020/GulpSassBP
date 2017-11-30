@@ -1,4 +1,10 @@
 // Use @extend for placeholders
+%useBodyFont {
+  font-family:'Roboto', sans-serif;
+  }
+  %useHeadlineFont {
+  font-family:'Montserrat', sans-serif;
+  }
 
 %container {
   max-width : 50em;
@@ -25,3 +31,4 @@
 %zeroMargin {
   margin : 0;
 }
+

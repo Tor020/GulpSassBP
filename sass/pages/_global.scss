@@ -1,12 +1,32 @@
+html {
+  font-size : 16px;
+}
 body {
-  color : $body-font;
+  color : $body-Font;
+  font-size : 1rem;
   line-height : 1.5;
 
   margin : 0;
   padding : 0;
 
-  background-color : $body-bg;
+  background-color : $body-Bg;
 }
+a {
+  color : darken($base-Accent, 10%);
+
+  transition : 0.5s all;
+  text-decoration : none;
+  &:hover {
+    color : adjust-hue($base-Accent, 10%);
+  }
+}
+li {
+  list-style : none;
+  list-style-image : none;
+}
+span,
+input,
+form,
 p,
 div,
 h1,
@@ -19,3 +39,8 @@ li,
 a {
   @extend %zeroMargin;
 }
+h1{font-size:2rem;}
+h2{font-size:1.8rem;}
+h3{font-size:1.6rem;}
+h4{font-size:1.4rem;}
+h5{font-size:1.2rem;}

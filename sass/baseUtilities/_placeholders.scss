@@ -4,10 +4,15 @@
   max-width : 50em;
   margin : 0 auto;
 
-  background-color : $container-bg;
+  background-color : $container-Bg;
   div,
   p {
-    padding : 1em;
+    padding : 10em;
+  
+    transition : all 0.5s;
+    &:hover {
+      @include shadow(3px,2px,3px,2px);
+    }
   }
 }
 %outsideMargin {
@@ -15,10 +20,8 @@
   max-width : 80%;
   margin : 0 auto;
 
-  
-  background-color : $container-bg;
+  background-color : $container-Bg;
 }
-
 %zeroMargin {
   margin : 0;
 }
